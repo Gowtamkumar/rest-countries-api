@@ -1,0 +1,22 @@
+.countryDivStyle{
+    border-radius: 5px;
+    border:2px solid green;
+    width: 95%;
+    padding:20px;
+    text-align: center;
+    background-color:gray;
+    color:white;
+}
+#displayData{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:20px;
+}
+#countryDetailsInfo img{
+    width: 300px;
+}
+#countryDetailsInfo{
+    border:2px solid red;
+    padding:20px;
+
+}
